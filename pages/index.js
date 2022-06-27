@@ -28,7 +28,7 @@ export default function Home({ blogs, profile}) {
     <><>
       <Script src="/assets/js/main.js"></Script>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
 
         <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
@@ -170,7 +170,7 @@ export default function Home({ blogs, profile}) {
         className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" /> 
       <div className="hidden absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
         <button className="absolute top-0 right-0 mt-4 mr-4">
-          <Image  src="/assets/img/icon-close.svg" height={"2.2rem"} width={"auto"} className="h-10 w-auto" alt="" />
+          <Image  src="/assets/img/icon-close.svg" height="2" width="2" className="h-10 w-auto" alt="" />
         </button>
 
         <ul className="mt-8 flex flex-col">
@@ -242,7 +242,7 @@ export default function Home({ blogs, profile}) {
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full border-8 border-primary shadow-xl">
-              <Image height={""} width={""} src={builder.image(profile.image).width(200).url()} className="h-48 rounded-full sm:h-56" alt="author" />
+              <img src={builder.image(profile.image).width(200).url()} className="h-48 rounded-full sm:h-56" alt="author" />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
@@ -256,10 +256,10 @@ export default function Home({ blogs, profile}) {
                   </div>
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  <Link href={profile.fbLink}>
+                  <Link href={"profile.fbLink"}>
                     <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
                   </Link>
-                  <Link href={profile.twitterLink} className="pl-4">
+                  <Link href={"profile.twitterLink"} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
                   </Link>
                   <Link href="/" className="pl-4">
@@ -268,7 +268,7 @@ export default function Home({ blogs, profile}) {
                   <Link href="/" className="pl-4">
                     <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                   </Link>
-                  <Link href={profile.instagramLink} className="pl-4">
+                  <Link href={"profile.instagramLink"} className="pl-4">
                     <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
                   </Link>
                 </div>
@@ -384,10 +384,10 @@ export default function Home({ blogs, profile}) {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <Image  height={""} width={""} src="/assets/img/icon-development-white.svg" alt="development icon" />
+                <Image  height="50" width="50" src="/assets/img/icon-development-white.svg" alt="development icon" />
               </div>
               <div className="block group-hover:hidden">
-                <Image height={""} width={""} src="/assets/img/icon-development-black.svg" alt="development icon" />
+                <img src="/assets/img/icon-development-black.svg" alt="development icon" />
               </div>
             </div>
             <div className="text-center">
@@ -402,10 +402,10 @@ export default function Home({ blogs, profile}) {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <Image height={""} width={""} src="/assets/img/icon-content-white.svg" alt="content marketing icon" />
+                <img src="/assets/img/icon-content-white.svg" alt="content marketing icon" />
               </div>
               <div className="block group-hover:hidden">
-                <Image height={""} width={""} src="/assets/img/icon-content-black.svg" alt="content marketing icon" />
+                <img src="/assets/img/icon-content-black.svg" alt="content marketing icon" />
               </div>
             </div>
             <div className="text-center">
@@ -420,10 +420,10 @@ export default function Home({ blogs, profile}) {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <Image height={""} width={""} src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
+                <img src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
               </div>
               <div className="block group-hover:hidden">
-                <Image height={""} width={""} src="/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" />
+                <img src="/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" />
               </div>
             </div>
             <div className="text-center">
@@ -438,10 +438,10 @@ export default function Home({ blogs, profile}) {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <Image height={""} width={""} src="/assets/img/icon-email-white.svg" alt="Email Marketing icon" />
+                <img src="/assets/img/icon-email-white.svg" alt="Email Marketing icon" />
               </div>
               <div className="block group-hover:hidden">
-                <Image height={""} width={""} src="/assets/img/icon-email-black.svg" alt="Email Marketing icon" />
+                <img src="/assets/img/icon-email-black.svg" alt="Email Marketing icon" />
               </div>
             </div>
             <div className="text-center">
@@ -456,10 +456,10 @@ export default function Home({ blogs, profile}) {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <Image height={""} width={""} src="/assets/img/icon-design-white.svg" alt="Theme Design icon" />
+                <img src="/assets/img/icon-design-white.svg" alt="Theme Design icon" />
               </div>
               <div className="block group-hover:hidden">
-                <Image height={""} width={""} src="/assets/img/icon-design-black.svg" alt="Theme Design icon" />
+                <img src="/assets/img/icon-design-black.svg" alt="Theme Design icon" />
               </div>
             </div>
             <div className="text-center">
@@ -474,10 +474,10 @@ export default function Home({ blogs, profile}) {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <Image height={""} width={""} src="/assets/img/icon-graphics-white.svg" alt="Graphic Design icon" />
+                <img src="/assets/img/icon-graphics-white.svg" alt="Graphic Design icon" />
               </div>
               <div className="block group-hover:hidden">
-                <Image height={""} width={""} src="/assets/img/icon-graphics-black.svg" alt="Graphic Design icon" />
+                <img src="/assets/img/icon-graphics-black.svg" alt="Graphic Design icon" />
               </div>
             </div>
             <div className="text-center">
@@ -502,16 +502,16 @@ export default function Home({ blogs, profile}) {
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
           <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <Image height={""} width={""} src="/assets/img/portfolio-apple.jpeg" className="w-full shadow" alt="portfolio image" />
+            <img src="/assets/img/portfolio-apple.jpeg" className="w-full shadow" alt="portfolio image" />
           </Link>
           <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <Image height={""} width={""} src="/assets/img/portfolio-stripe.jpeg" className="w-full shadow" alt="portfolio image" />
+            <img src="/assets/img/portfolio-stripe.jpeg" className="w-full shadow" alt="portfolio image" />
           </Link>
           <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <Image height={""} width={""} src="/assets/img/portfolio-fedex.jpeg" className="w-full shadow" alt="portfolio image" />
+            <img src="/assets/img/portfolio-fedex.jpeg" className="w-full shadow" alt="portfolio image" />
           </Link>
           <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <Image height={""} width={""} src="/assets/img/portfolio-microsoft.jpeg" className="w-full shadow" alt="portfolio image" />
+            <img src="/assets/img/portfolio-microsoft.jpeg" className="w-full shadow" alt="portfolio image" />
           </Link>
         </div>
       </div>
@@ -524,22 +524,22 @@ export default function Home({ blogs, profile}) {
             </h2>
             <div className="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
               <span className="m-8 block">
-                <Image height={""} width={""} src="/assets/img/logo-coca-cola.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
+                <img src="/assets/img/logo-coca-cola.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
               </span>
               <span className="m-8 block">
-                <Image height={""} width={""} src="/assets/img/logo-apple.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
-              </span>
-
-              <span className="m-8 block">
-                <Image height={""} width={""} src="/assets/img/logo-netflix.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
+                <img src="/assets/img/logo-apple.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
               </span>
 
               <span className="m-8 block">
-                <Image height={""} width={""} src="/assets/img/logo-amazon.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
+                <img src="/assets/img/logo-netflix.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
               </span>
 
               <span className="m-8 block">
-                <Image height={""} width={""} src="/assets/img/logo-stripe.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
+                <img src="/assets/img/logo-amazon.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
+              </span>
+
+              <span className="m-8 block">
+                <img src="/assets/img/logo-stripe.svg" alt="client logo" className="mx-auto block h-12 w-auto" />
               </span>
             </div>
           </div>
@@ -561,7 +561,7 @@ export default function Home({ blogs, profile}) {
             <div className="md:w-2/5">
               <div className="flex justify-center md:justify-start">
                 <span className="shrink-0">
-                  <Image height={""} width={""} src="/assets/img/logo-spotify.svg" className="h-auto w-32" alt="company logo" />
+                  <img src="/assets/img/logo-spotify.svg" className="h-auto w-32" alt="company logo" />
                 </span>
                 <div className="relative ml-3 hidden w-full md:block">
                   <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -594,7 +594,7 @@ export default function Home({ blogs, profile}) {
             <div className="md:w-2/5">
               <div className="flex justify-center md:justify-start">
                 <span className="shrink-0">
-                  <Image height={""} width={""} src="/assets/img/logo-microsoft.svg" className="h-auto w-32" alt="company logo" />
+                  <img src="/assets/img/logo-microsoft.svg" className="h-auto w-32" alt="company logo" />
                 </span>
                 <div className="relative ml-3 hidden w-full md:block">
                   <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -627,7 +627,7 @@ export default function Home({ blogs, profile}) {
             <div className="md:w-2/5">
               <div className="flex justify-center md:justify-start">
                 <span className="shrink-0">
-                  <Image height={""} width={""} src="/assets/img/logo-fedex.svg" className="h-auto w-32" alt="company logo" />
+                  <img src="/assets/img/logo-fedex.svg" className="h-auto w-32" alt="company logo" />
                 </span>
                 <div className="relative ml-3 hidden w-full md:block">
                   <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -666,7 +666,7 @@ export default function Home({ blogs, profile}) {
             <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
               <div className="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
                 <div>
-                  <Image height={""} width={""} src="/assets/img/icon-project.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon project" />
+                  <img src="/assets/img/icon-project.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon project" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -680,7 +680,7 @@ export default function Home({ blogs, profile}) {
 
               <div className="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
                 <div>
-                  <Image height={""} width={""} src="/assets/img/icon-award.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon award" />
+                  <img src="/assets/img/icon-award.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon award" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -695,7 +695,7 @@ export default function Home({ blogs, profile}) {
               <div
                 className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
                 <div>
-                  <Image height={""} width={""} src="/assets/img/icon-happy.svg" className="mx-auto h-12 w-auto md:h-20"
+                  <img src="/assets/img/icon-happy.svg" className="mx-auto h-12 w-auto md:h-20"
                     alt="icon happy clients" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
@@ -711,7 +711,7 @@ export default function Home({ blogs, profile}) {
               <div
                 className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
                 <div>
-                  <Image height={""} width={""} src="/assets/img/icon-puzzle.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon puzzle" />
+                  <img src="/assets/img/icon-puzzle.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon puzzle" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -928,7 +928,7 @@ export default function Home({ blogs, profile}) {
 }
 
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   const client = createClient({
     projectId: "0j7lpbiv",
     dataset: "production",

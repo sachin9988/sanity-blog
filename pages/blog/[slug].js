@@ -279,7 +279,7 @@ const Post = ({blog}) => {
 
 export default Post
 
-export const getServerSideProps = async (context) => {
+export const getStaticProps = async (context) => {
   const { slug } = context.query
   console.log(slug)
   const client = createClient({

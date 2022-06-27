@@ -62,7 +62,7 @@ const Blogs = ({blogs}) => {
 
 export default Blogs
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
     const client = createClient({
       projectId: "0j7lpbiv",
       dataset: "production",
